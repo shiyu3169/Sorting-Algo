@@ -10,6 +10,3 @@ function bubbleSort(arr) {
     }
   }
 }
-
-bubbleSort([7, 5, 2, 4, 3, 9]);
-// len = 6, i=5, j=1, arr[j-1] = arr[0] = 7, arr[j] = arr[1] = 5
