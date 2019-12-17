@@ -41,3 +41,11 @@ step-4: Then you got 10. It is bigger than the previous card which is 5. Hence, 
 step-5: The next card is 7. You just move the position of the card 10 to the right and insert card 7.
 
 step-6: If the last card is 3. You will have to move 10 to the right as it is bigger than 3. and then you check with the next card to the left it is 7 which is bigger than 3. you move it to the right. similarly, you move 5, 4 to the right. And put the number 3 before 2 as 2 is smaller than 3.
+
+###Merge Sort
+its a divide and conquer type algorithm.
+
+just break down your array into small and small pieces and until you have one items in each pieces. then merge together by comparing them.
+Code Merge Sort: Merge sort has two parts. Main part does divide or breaks down and second part is merging/combining parts. At the time of combining, parts are combined together.
+Divide: the first function named as mergeSort is actually a divide function. where an array is divided into two.
+merge: this is just merging two sorted array. Just be careful this two array could be in different size
